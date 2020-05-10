@@ -22,7 +22,7 @@ namespace DanbooruDownloader.Commands
         {
             string tempFolderPath = Path.Combine(path, "_temp");
             string imageFolderPath = Path.Combine(path, "images");
-            string metadataDatabasePath = Path.Combine(path, "danbooru.sqlite");
+            string metadataDatabasePath = Path.Combine(path, "/tmp/danbooru.sqlite");
             string lastPostJsonPath = Path.Combine(path, "last_post.json");
 
             PathUtility.CreateDirectoryIfNotExists(path);
